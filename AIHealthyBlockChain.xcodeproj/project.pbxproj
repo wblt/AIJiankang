@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EED056E321226AAC00F0AB9C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EED056E221226AAC00F0AB9C /* AppDelegate.m */; };
+		EED056EB21226AAC00F0AB9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EED056EA21226AAC00F0AB9C /* Assets.xcassets */; };
+		EED056EE21226AAC00F0AB9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EED056EC21226AAC00F0AB9C /* LaunchScreen.storyboard */; };
+		EED056F121226AAC00F0AB9C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EED056F021226AAC00F0AB9C /* main.m */; };
+		EED056FB21226AAD00F0AB9C /* AIHealthyBlockChainTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EED056FA21226AAD00F0AB9C /* AIHealthyBlockChainTests.m */; };
+		EED0570621226AAD00F0AB9C /* AIHealthyBlockChainUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EED0570521226AAD00F0AB9C /* AIHealthyBlockChainUITests.m */; };
+		EED0573B212283D900F0AB9C /* SureWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EED05736212283D900F0AB9C /* SureWebViewController.m */; };
+		EED0573C212283D900F0AB9C /* sure_placeholder_error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EED05737212283D900F0AB9C /* sure_placeholder_error@2x.png */; };
+		EED0573D212283D900F0AB9C /* sure_placeholder_error@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EED05738212283D900F0AB9C /* sure_placeholder_error@3x.png */; };
+		EED0573E212283D900F0AB9C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = EED05739212283D900F0AB9C /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EED056F721226AAD00F0AB9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EED056D621226AAC00F0AB9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EED056DD21226AAC00F0AB9C;
+			remoteInfo = AIHealthyBlockChain;
+		};
+		EED0570221226AAD00F0AB9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EED056D621226AAC00F0AB9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EED056DD21226AAC00F0AB9C;
+			remoteInfo = AIHealthyBlockChain;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EED056DE21226AAC00F0AB9C /* AIHealthyBlockChain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AIHealthyBlockChain.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EED056E121226AAC00F0AB9C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EED056E221226AAC00F0AB9C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EED056EA21226AAC00F0AB9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EED056ED21226AAC00F0AB9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EED056EF21226AAC00F0AB9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EED056F021226AAC00F0AB9C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EED056F621226AAD00F0AB9C /* AIHealthyBlockChainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AIHealthyBlockChainTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EED056FA21226AAD00F0AB9C /* AIHealthyBlockChainTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AIHealthyBlockChainTests.m; sourceTree = "<group>"; };
+		EED056FC21226AAD00F0AB9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EED0570121226AAD00F0AB9C /* AIHealthyBlockChainUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AIHealthyBlockChainUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EED0570521226AAD00F0AB9C /* AIHealthyBlockChainUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AIHealthyBlockChainUITests.m; sourceTree = "<group>"; };
+		EED0570721226AAD00F0AB9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EED05736212283D900F0AB9C /* SureWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SureWebViewController.m; sourceTree = "<group>"; };
+		EED05737212283D900F0AB9C /* sure_placeholder_error@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sure_placeholder_error@2x.png"; sourceTree = "<group>"; };
+		EED05738212283D900F0AB9C /* sure_placeholder_error@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sure_placeholder_error@3x.png"; sourceTree = "<group>"; };
+		EED05739212283D900F0AB9C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		EED0573A212283D900F0AB9C /* SureWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SureWebViewController.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EED056DB21226AAC00F0AB9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EED056F321226AAD00F0AB9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EED056FE21226AAD00F0AB9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EED056D521226AAC00F0AB9C = {
+			isa = PBXGroup;
+			children = (
+				EED056E021226AAC00F0AB9C /* AIHealthyBlockChain */,
+				EED056F921226AAD00F0AB9C /* AIHealthyBlockChainTests */,
+				EED0570421226AAD00F0AB9C /* AIHealthyBlockChainUITests */,
+				EED056DF21226AAC00F0AB9C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EED056DF21226AAC00F0AB9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EED056DE21226AAC00F0AB9C /* AIHealthyBlockChain.app */,
+				EED056F621226AAD00F0AB9C /* AIHealthyBlockChainTests.xctest */,
+				EED0570121226AAD00F0AB9C /* AIHealthyBlockChainUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EED056E021226AAC00F0AB9C /* AIHealthyBlockChain */ = {
+			isa = PBXGroup;
+			children = (
+				EED05735212283D900F0AB9C /* SureWebViewController */,
+				EED056E121226AAC00F0AB9C /* AppDelegate.h */,
+				EED056E221226AAC00F0AB9C /* AppDelegate.m */,
+				EED056EA21226AAC00F0AB9C /* Assets.xcassets */,
+				EED056EC21226AAC00F0AB9C /* LaunchScreen.storyboard */,
+				EED056EF21226AAC00F0AB9C /* Info.plist */,
+				EED056F021226AAC00F0AB9C /* main.m */,
+			);
+			path = AIHealthyBlockChain;
+			sourceTree = "<group>";
+		};
+		EED056F921226AAD00F0AB9C /* AIHealthyBlockChainTests */ = {
+			isa = PBXGroup;
+			children = (
+				EED056FA21226AAD00F0AB9C /* AIHealthyBlockChainTests.m */,
+				EED056FC21226AAD00F0AB9C /* Info.plist */,
+			);
+			path = AIHealthyBlockChainTests;
+			sourceTree = "<group>";
+		};
+		EED0570421226AAD00F0AB9C /* AIHealthyBlockChainUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EED0570521226AAD00F0AB9C /* AIHealthyBlockChainUITests.m */,
+				EED0570721226AAD00F0AB9C /* Info.plist */,
+			);
+			path = AIHealthyBlockChainUITests;
+			sourceTree = "<group>";
+		};
+		EED05735212283D900F0AB9C /* SureWebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EED05736212283D900F0AB9C /* SureWebViewController.m */,
+				EED05737212283D900F0AB9C /* sure_placeholder_error@2x.png */,
+				EED05738212283D900F0AB9C /* sure_placeholder_error@3x.png */,
+				EED05739212283D900F0AB9C /* README.md */,
+				EED0573A212283D900F0AB9C /* SureWebViewController.h */,
+			);
+			path = SureWebViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EED056DD21226AAC00F0AB9C /* AIHealthyBlockChain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EED0570A21226AAD00F0AB9C /* Build configuration list for PBXNativeTarget "AIHealthyBlockChain" */;
+			buildPhases = (
+				EED056DA21226AAC00F0AB9C /* Sources */,
+				EED056DB21226AAC00F0AB9C /* Frameworks */,
+				EED056DC21226AAC00F0AB9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AIHealthyBlockChain;
+			productName = AIHealthyBlockChain;
+			productReference = EED056DE21226AAC00F0AB9C /* AIHealthyBlockChain.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EED056F521226AAD00F0AB9C /* AIHealthyBlockChainTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EED0570D21226AAD00F0AB9C /* Build configuration list for PBXNativeTarget "AIHealthyBlockChainTests" */;
+			buildPhases = (
+				EED056F221226AAD00F0AB9C /* Sources */,
+				EED056F321226AAD00F0AB9C /* Frameworks */,
+				EED056F421226AAD00F0AB9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EED056F821226AAD00F0AB9C /* PBXTargetDependency */,
+			);
+			name = AIHealthyBlockChainTests;
+			productName = AIHealthyBlockChainTests;
+			productReference = EED056F621226AAD00F0AB9C /* AIHealthyBlockChainTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EED0570021226AAD00F0AB9C /* AIHealthyBlockChainUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EED0571021226AAD00F0AB9C /* Build configuration list for PBXNativeTarget "AIHealthyBlockChainUITests" */;
+			buildPhases = (
+				EED056FD21226AAD00F0AB9C /* Sources */,
+				EED056FE21226AAD00F0AB9C /* Frameworks */,
+				EED056FF21226AAD00F0AB9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EED0570321226AAD00F0AB9C /* PBXTargetDependency */,
+			);
+			name = AIHealthyBlockChainUITests;
+			productName = AIHealthyBlockChainUITests;
+			productReference = EED0570121226AAD00F0AB9C /* AIHealthyBlockChainUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EED056D621226AAC00F0AB9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "冷婷";
+				TargetAttributes = {
+					EED056DD21226AAC00F0AB9C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
+					};
+					EED056F521226AAD00F0AB9C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EED056DD21226AAC00F0AB9C;
+					};
+					EED0570021226AAD00F0AB9C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EED056DD21226AAC00F0AB9C;
+					};
+				};
+			};
+			buildConfigurationList = EED056D921226AAC00F0AB9C /* Build configuration list for PBXProject "AIHealthyBlockChain" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EED056D521226AAC00F0AB9C;
+			productRefGroup = EED056DF21226AAC00F0AB9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EED056DD21226AAC00F0AB9C /* AIHealthyBlockChain */,
+				EED056F521226AAD00F0AB9C /* AIHealthyBlockChainTests */,
+				EED0570021226AAD00F0AB9C /* AIHealthyBlockChainUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EED056DC21226AAC00F0AB9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EED056EE21226AAC00F0AB9C /* LaunchScreen.storyboard in Resources */,
+				EED0573D212283D900F0AB9C /* sure_placeholder_error@3x.png in Resources */,
+				EED0573E212283D900F0AB9C /* README.md in Resources */,
+				EED056EB21226AAC00F0AB9C /* Assets.xcassets in Resources */,
+				EED0573C212283D900F0AB9C /* sure_placeholder_error@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EED056F421226AAD00F0AB9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EED056FF21226AAD00F0AB9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EED056DA21226AAC00F0AB9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EED056F121226AAC00F0AB9C /* main.m in Sources */,
+				EED0573B212283D900F0AB9C /* SureWebViewController.m in Sources */,
+				EED056E321226AAC00F0AB9C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EED056F221226AAD00F0AB9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EED056FB21226AAD00F0AB9C /* AIHealthyBlockChainTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EED056FD21226AAD00F0AB9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EED0570621226AAD00F0AB9C /* AIHealthyBlockChainUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EED056F821226AAD00F0AB9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EED056DD21226AAC00F0AB9C /* AIHealthyBlockChain */;
+			targetProxy = EED056F721226AAD00F0AB9C /* PBXContainerItemProxy */;
+		};
+		EED0570321226AAD00F0AB9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EED056DD21226AAC00F0AB9C /* AIHealthyBlockChain */;
+			targetProxy = EED0570221226AAD00F0AB9C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EED056EC21226AAC00F0AB9C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EED056ED21226AAC00F0AB9C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EED0570821226AAD00F0AB9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EED0570921226AAD00F0AB9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EED0570B21226AAD00F0AB9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = HR6HGC9SU2;
+				INFOPLIST_FILE = AIHealthyBlockChain/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.welcare.aijiankang;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9b3c8068-fe85-4aa9-91e2-227e4a274941";
+				PROVISIONING_PROFILE_SPECIFIER = AIHealthyBlockChain_dev;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EED0570C21226AAD00F0AB9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = HR6HGC9SU2;
+				INFOPLIST_FILE = AIHealthyBlockChain/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.welcare.aijiankang;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c1c2dd61-6af8-4dc5-92db-372b688e88ba";
+				PROVISIONING_PROFILE_SPECIFIER = AIHealthyBlockChain_dis;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EED0570E21226AAD00F0AB9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AIHealthyBlockChainTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.welcare.AIHealthyBlockChainTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AIHealthyBlockChain.app/AIHealthyBlockChain";
+			};
+			name = Debug;
+		};
+		EED0570F21226AAD00F0AB9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AIHealthyBlockChainTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.welcare.AIHealthyBlockChainTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AIHealthyBlockChain.app/AIHealthyBlockChain";
+			};
+			name = Release;
+		};
+		EED0571121226AAD00F0AB9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AIHealthyBlockChainUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.welcare.AIHealthyBlockChainUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AIHealthyBlockChain;
+			};
+			name = Debug;
+		};
+		EED0571221226AAD00F0AB9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AIHealthyBlockChainUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.welcare.AIHealthyBlockChainUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AIHealthyBlockChain;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EED056D921226AAC00F0AB9C /* Build configuration list for PBXProject "AIHealthyBlockChain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EED0570821226AAD00F0AB9C /* Debug */,
+				EED0570921226AAD00F0AB9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EED0570A21226AAD00F0AB9C /* Build configuration list for PBXNativeTarget "AIHealthyBlockChain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EED0570B21226AAD00F0AB9C /* Debug */,
+				EED0570C21226AAD00F0AB9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EED0570D21226AAD00F0AB9C /* Build configuration list for PBXNativeTarget "AIHealthyBlockChainTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EED0570E21226AAD00F0AB9C /* Debug */,
+				EED0570F21226AAD00F0AB9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EED0571021226AAD00F0AB9C /* Build configuration list for PBXNativeTarget "AIHealthyBlockChainUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EED0571121226AAD00F0AB9C /* Debug */,
+				EED0571221226AAD00F0AB9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EED056D621226AAC00F0AB9C /* Project object */;
+}
