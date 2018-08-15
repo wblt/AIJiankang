@@ -414,41 +414,23 @@ static CGFloat const NAVI_HEIGHT = 64;
 //}
 
 - (void)webView:(WKWebView *)webView decidePolicyForNavigationAction:(WKNavigationAction *)navigationAction decisionHandler:(void (^)(WKNavigationActionPolicy))decisionHandler {
-//    NSDictionary *referDict = [[NSUserDefaults standardUserDefaults] objectForKey:@"loadUrlWithRefer"];
-//    if (referDict !=nil) {
-//        NSString *url = referDict[@"url"];
-//        NSString *refer = referDict[@"refer"];
-//        NSDictionary *headers = [navigationAction.request allHTTPHeaderFields];
-//        NSString * referer = [headers objectForKey:@"Referer"];
-//        BOOL isRightReferer = [referer isEqualToString:refer];
-//        if (isRightReferer) {
-//            decisionHandler(WKNavigationActionPolicyAllow);
-//        } else {
-//            decisionHandler(WKNavigationActionPolicyCancel);
-//            if ([url isEqualToString:[navigationAction.request.URL absoluteString]]) {
-//                NSMutableDictionary * muDict = [[NSMutableDictionary alloc] initWithDictionary:headers];
-//                [muDict setObject:refer forKey:@"Referer"];
-//            dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
-//                    dispatch_async(dispatch_get_main_queue(), ^{
-//                        NSURL *url = [navigationAction.request URL];
-//                        NSMutableURLRequest* request = [NSMutableURLRequest requestWithURL:url cachePolicy:NSURLRequestReloadIgnoringCacheData timeoutInterval:60.0];
-//                        request.allHTTPHeaderFields = muDict;
-//                        [webView loadRequest:request];
-//                    });
-//                });
-//            }
-//            [[NSUserDefaults standardUserDefaults] removeObjectForKey:@"loadUrlWithRefer"];// 使用完成后移除
-//        }
-//    } else {
-        NSURL *url = navigationAction.request.URL;
-        //ICLog(@"decidePolicyForNavigationAction :%@", [url scheme]);
+    NSURLRequest *request = navigationAction.request;
+    NSURL *url = navigationAction.request.URL;
+    if ([url.absoluteString hasPrefix:@"https://wx.tenpay.com/cgi-bin/mmpayweb-bin/checkmweb"] && ![url.absoluteString hasSuffix:@"redirect_url=yg.welcare-tech.com.cn://"]) {
+        decisionHandler(WKNavigationActionPolicyCancel);
+        
+        NSMutableURLRequest *newRequest = [[NSMutableURLRequest alloc] init];
+        newRequest.allHTTPHeaderFields = request.allHTTPHeaderFields;
+        NSString *newURLStr = [url.absoluteString stringByAppendingString:@"&redirect_url=yg.welcare-tech.com.cn://"];
+        newRequest.URL = [NSURL URLWithString:newURLStr];
+        [webView loadRequest:newRequest];
+    }else {
         NSString *scheme = [url scheme];
-        //forward
         if (![scheme isEqualToString:@"https"] && ![scheme isEqualToString:@"http"]) {
             [[UIApplication sharedApplication] openURL:url];
         }
         decisionHandler(WKNavigationActionPolicyAllow);
-//    }
+    }
 }
 
 /*
