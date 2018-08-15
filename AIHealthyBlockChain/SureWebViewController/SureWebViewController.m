@@ -426,8 +426,12 @@ static CGFloat const NAVI_HEIGHT = 64;
         [webView loadRequest:newRequest];
     }else {
         NSString *scheme = [url scheme];
-        if (![scheme isEqualToString:@"https"] && ![scheme isEqualToString:@"http"]) {
-            [[UIApplication sharedApplication] openURL:url];
+        if ([scheme isEqualToString:@"yg.welcare-tech.com.cn"]) {
+            [_wk_WebView goBack];
+        } else {
+            if (![scheme isEqualToString:@"https"] && ![scheme isEqualToString:@"http"]) {
+                [[UIApplication sharedApplication] openURL:url];
+            }
         }
         decisionHandler(WKNavigationActionPolicyAllow);
     }

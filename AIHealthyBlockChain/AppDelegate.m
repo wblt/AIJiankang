@@ -19,7 +19,6 @@
     // 创建窗口
     self.window = [[UIWindow alloc] init];
     self.window.frame = [UIScreen mainScreen].bounds;
-    
 //    NSMutableDictionary *dic = [NSMutableDictionary dictionary];
 //    [dic setValue:@"http://mall.k12chn.com/index.php?app=epay_h5&uid=1729172&status=1" forKey:@"url"];
 //    [dic setValue:@"http://mall.k12chn.com/index.php?app=epay_h5&uid=1729172&status=1" forKey:@"refer"];
@@ -27,16 +26,13 @@
 //    NSUserDefaults *user = [NSUserDefaults standardUserDefaults];
 //    [user setObject:dic forKey:@"loadUrlWithRefer"];
 //    [user synchronize];
-    
     SureWebViewController *VC = [[SureWebViewController alloc] init];
     VC.url = @"http://yg.welcare-tech.com.cn/tpiot/dfdsgoods/homepage?devicetype=1";
 //    VC.url = @"http://mall.k12chn.com/index.php?app=epay_h5&uid=1729172&status=1";
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:VC];
     self.window.rootViewController = nav;
-
     // 显示窗口
     [self.window makeKeyAndVisible];
-
     return YES;
 }
 
