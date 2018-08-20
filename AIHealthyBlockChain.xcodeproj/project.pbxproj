@@ -447,7 +447,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "9b3c8068-fe85-4aa9-91e2-227e4a274941";
 				PROVISIONING_PROFILE_SPECIFIER = AIHealthyBlockChain_dev;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -465,7 +465,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "c1c2dd61-6af8-4dc5-92db-372b688e88ba";
 				PROVISIONING_PROFILE_SPECIFIER = AIHealthyBlockChain_dis;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
